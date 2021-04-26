@@ -1,0 +1,23 @@
+{
+	"name": "temp_dataset",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_temp",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "full.csv",
+				"container": "temporaire"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
