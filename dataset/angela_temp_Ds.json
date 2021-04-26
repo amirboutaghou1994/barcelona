@@ -1,0 +1,23 @@
+{
+	"name": "angela_temp_Ds",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "angela_temp2",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "full.csv",
+				"container": "temporaire"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
