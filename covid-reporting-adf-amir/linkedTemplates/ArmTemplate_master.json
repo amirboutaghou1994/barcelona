@@ -23,6 +23,10 @@
 			"type": "secureString",
 			"metadata": "Secure string for 'connectionString' of 'try_ls'"
 		},
+		"angela_temp2_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'angela_temp2'"
+		},
 		"ls_datalake_properties_typeProperties_url": {
 			"type": "string",
 			"defaultValue": "https://amirboutaghoudl.dfs.core.windows.net"
@@ -69,6 +73,9 @@
 					},
 					"try_ls_connectionString": {
 						"value": "[parameters('try_ls_connectionString')]"
+					},
+					"angela_temp2_connectionString": {
+						"value": "[parameters('angela_temp2_connectionString')]"
 					},
 					"ls_datalake_properties_typeProperties_url": {
 						"value": "[parameters('ls_datalake_properties_typeProperties_url')]"
