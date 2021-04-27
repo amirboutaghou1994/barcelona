@@ -1,0 +1,9 @@
+{
+	"name": "dfcovid19amir",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "2f0f27e3-e602-4fb6-8a14-122e281136e1",
+		"tenantId": "19f6d457-c596-4ae3-8aa0-dc3a35bede36"
+	}
+}
